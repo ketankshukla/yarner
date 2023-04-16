@@ -1,4 +1,4 @@
-import fibonacci from './fibonacci';
+import {fibonacci} from './fibonacci';
 
 describe('fibonacci', () => {
   test('returns the correct Fibonacci number for n = 0', () => {
