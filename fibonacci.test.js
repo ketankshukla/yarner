@@ -24,4 +24,8 @@ describe("fibonacci", () => {
   test("returns the correct Fibonacci number for n = 20", () => {
     expect(fibonacci(20)).toBe(6765);
   });
+
+  test("returns the correct Fibonacci number for n = 20", () => {
+    expect(fibonacci(50)).toBe(12586269025);
+  });
 });
